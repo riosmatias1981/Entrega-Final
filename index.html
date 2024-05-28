@@ -14,29 +14,13 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary col-12 encabezado">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./assets/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
-                Desayunos Artesanales
-              </a>
-            </div> 
-        </nav>
+        <h1>Desayunos Artesanales</h1>
         <h3>Los mejores Desayunos</h3>
     </header>
     
 <main>
     <article>
-        <!--<h2>Productos</h2>
-         <form style="width: 200px; padding: 10px;">
-            <select class="form-select" aria-label="Default select example" id="tipoProducto">
-                <option selected value="0">Todo</option>
-                <option value="Camiseta">Camisetas</option>
-                <option value="Pantalon">Pantalon</option>
-                <option value="Campera">Camperas</option>
-                <option value="Accesorios">Accesorios</option>
-            </select>
-        </form> -->
+
         <div class="container">
             <!-- Aca renderizo los productos -->
             <div class="row" id="contenedorProductos" style="display:flex;justify-content: center;">
@@ -46,14 +30,16 @@
     </article>
 
 
-    <article class="carrito">
-        <h2>Mi compra</h2>
+    <article class="form_carrito">
+        <h2>Carrito de compras</h2>
         <ul id="listaCarrito"></ul>
         <p id="carritoTotal"></p>
         <form id="formCompraFinal">
+          
             <input type="submit" value="Finalizar Compra" class="btn btn-primary" id="botonCompraFinal">
         </form>
     </article>
+
 
 </main>
 
