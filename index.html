@@ -14,7 +14,11 @@
 </head>
 <body>
     <header>
-       <h1> Desayunos Sorpresa </h1>
+        <nav class="navbar bg-body-tertiary col-12 encabezado">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                Desayunos Sorpresa
               </a>
             </div> 
         </nav>
@@ -39,11 +43,7 @@
         <p id="carritoTotal"></p>
         <form id="formCompraFinal">
             <label for="nombre">Nombre:</label>
-            <input required type="text" name="nombre">
-            <label for="email">Email:</label>
-            <input required type="email" name="email">
-            <label for="telefono">Telefono:</label>
-            <input required type="number" name="telefono">
+    
             <input type="submit" value="Comprar" class="btn btn-primary" id="botonCompraFinal">
         </form>
     </article>
