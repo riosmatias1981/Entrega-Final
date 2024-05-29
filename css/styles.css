@@ -4,6 +4,28 @@ body{
     color: brown;
     
 }
+/* INICIO ESTILO CARRITO IZQUIERDO */
+aside {
+    padding: 2rem;
+    padding-right: 200px;
+    padding-right: 0;
+    background-color: #ffffff;
+    position: sticky;
+  ;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-attachment: fixed;
+
+  }
+  /* FIN ESTILO CARRITO IZQUIERDO */
 .productos{
     display:flex;
     flex-direction: column;
@@ -35,7 +57,7 @@ body{
 .form_carrito{
      border-radius: 5px;
     background-color: rgb(182, 151, 212);
-    padding-block: 5px;
+    padding-block: 15px;
     padding-left: 15px;
 }
 .btn{
