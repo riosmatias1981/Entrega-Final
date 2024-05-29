@@ -68,7 +68,7 @@ const renderizarProductos = (articulos)=>{
                     <label class= "espaciado">$ ${precio}</label>
                     <form id="form${id}">
                         <label class= "espaciado" for="contador${id}">Cantidad</label>
-                        <input type="number" placeholder="0" id="contador${id}" min="0">
+                        <input type="number" placeholder="0" id="contador${id}" min="0" class="input">
                         <p></p>
                         <button class="btn btn-primary" id="botonProd${id}">Agregar</button>
                         
