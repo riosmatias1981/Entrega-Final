@@ -9,24 +9,24 @@
         "id":"002", 
         "nombre":"Desayuno 1",        
         "precio":45000, 
-        "img":"./assets/001.png"
+        "img":"./assets/002.png"
     },
     {
         "id":"003", 
         "nombre":"Desayuno 1",        
         "precio":45000, 
-        "img":"./assets/001.png"
+        "img":"./assets/003.png"
     },
     {
         "id":"004", 
         "nombre":"Desayuno 1",        
         "precio":45000, 
-        "img":"./assets/001.png"
+        "img":"./assets/004.png"
     },
     {
         "id":"005", 
         "nombre":"Desayuno 1",        
         "precio":45000, 
-        "img":"./assets/001.png"
+        "img":"./assets/005.png"
     }
 ]
