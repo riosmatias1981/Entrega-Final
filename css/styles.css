@@ -74,6 +74,16 @@ aside {
     
 
 }
+.btn-primary{
+    border-radius: 5px;
+    background-color: rgba(96, 96, 96, 0.767);
+    color: rgba(255, 255, 255, 0.846);
+    margin-top: 10;
+    padding: 5px;
+    font-weight: 500;
+    
+
+}
 input {
     width: 30px;
     border-radius: 5px;
