@@ -25,15 +25,14 @@ const renderizarProductos = (articulos)=>{
                 <img src="${img}" class="card-img-top" alt="${nombre}">
                 <div class="card-body">
                     <h5 class="card-title espaciado">${nombre}</h5>
-                    <h6 class= "espaciado">${tipo}</h6>
-                    <p class="card-text espaciado">${descripcion}</p>
+                    
                     <label class= "espaciado">$ ${precio}</label>
                     <form id="form${id}">
                         <label class= "espaciado" for="contador${id}">Cantidad</label>
                         <input type="number" placeholder="0" id="contador${id}" min="0">
                         <p></p>
                         <button class="btn btn-primary" id="botonProd${id}">Agregar</button>
-                        <p class= "espaciado">Stock: ${stock}</p>
+                        
                     </form>
                 </div>`
         contenedorProductos.appendChild(prodCard)
