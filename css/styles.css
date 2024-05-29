@@ -30,6 +30,10 @@ aside {
     padding: 15px;
     border-left: #000000;
   }
+  .titulito{
+    font-weight:bold;
+    font-size:x-large;
+  }
 
 .productos{
     display:flex;
