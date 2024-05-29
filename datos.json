@@ -9,42 +9,30 @@
         "id":"002", 
         "nombre":"Desayuno Premium",        
         "precio":2500, 
-        "img":"./assets/002.png"
+        "img":"./assets/002.jpeg"
     },
     {
         "id":"003", 
         "nombre":"Desayuno Doble",        
         "precio":45000, 
-        "img":"./assets/003.png"
+        "img":"./assets/003.jpeg"
     },
     {
         "id":"004", 
         "nombre":"Desayuno Para 3",        
         "precio":45000, 
-        "img":"./assets/001.png"
+        "img":"./assets/004.jpeg"
     },
     {
         "id":"005", 
         "nombre":"Desayuno Para 5",        
         "precio":45000, 
-        "img":"./assets/002.png"
+        "img":"./assets/005.jpeg"
     },
     {
         "id":"006", 
         "nombre":"Desayuno Para 6",        
         "precio":45000, 
-        "img":"./assets/003.png"
-    },
-    {
-        "id":"007", 
-        "nombre":"Desayuno Para 7",        
-        "precio":45000, 
-        "img":"./assets/001.png"
-    },
-    {
-        "id":"008", 
-        "nombre":"Desayuno Para 8",        
-        "precio":45000, 
-        "img":"./assets/002.png"
+        "img":"./assets/006.jpeg"
     }
 ]
