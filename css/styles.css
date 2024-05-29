@@ -28,6 +28,7 @@ aside {
     background-color: rgb(230, 229, 229);
     margin-left: 0;
     padding: 15px;
+    border-left: #000000;
   }
 
 .productos{
