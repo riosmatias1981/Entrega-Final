@@ -1,32 +1,50 @@
 [
     {
         "id":"001",
-        "nombre":"Desayuno 1",        
-        "precio":48000, 
+        "nombre":"Desayuno Básico",        
+        "precio":1800, 
         "img":"./assets/001.png"
     },
     {
         "id":"002", 
-        "nombre":"Desayuno 1",        
-        "precio":45000, 
+        "nombre":"Desayuno Premium",        
+        "precio":2500, 
         "img":"./assets/002.png"
     },
     {
         "id":"003", 
-        "nombre":"Desayuno 1",        
+        "nombre":"Desayuno Doble",        
         "precio":45000, 
         "img":"./assets/003.png"
     },
     {
         "id":"004", 
-        "nombre":"Desayuno 1",        
+        "nombre":"Desayuno Para 3",        
         "precio":45000, 
-        "img":"./assets/004.png"
+        "img":"./assets/001.png"
     },
     {
         "id":"005", 
-        "nombre":"Desayuno 1",        
+        "nombre":"Desayuno Para 5",        
         "precio":45000, 
-        "img":"./assets/005.png"
+        "img":"./assets/002.png"
+    },
+    {
+        "id":"006", 
+        "nombre":"Desayuno Para 6",        
+        "precio":45000, 
+        "img":"./assets/003.png"
+    },
+    {
+        "id":"007", 
+        "nombre":"Desayuno Para 7",        
+        "precio":45000, 
+        "img":"./assets/001.png"
+    },
+    {
+        "id":"008", 
+        "nombre":"Desayuno Para 8",        
+        "precio":45000, 
+        "img":"./assets/002.png"
     }
 ]
