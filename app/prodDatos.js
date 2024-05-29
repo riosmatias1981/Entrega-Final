@@ -10,7 +10,7 @@ const productosBase = [
     {
         id:"001",
         nombre:"Desayuno 1",        
-        precio:45000, 
+        precio:prueba, 
     },
     {
         id:"002",
