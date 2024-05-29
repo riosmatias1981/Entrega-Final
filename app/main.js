@@ -64,7 +64,7 @@ const renderizarProductos = (articulos)=>{
                 <img src="${img}" class="card-img-top" alt="${nombre}">
                 <div class="card-body">
                     <h5 class="card-title espaciado">${nombre}</h5>
-                    <h6 class= "espaciado">${tipo}</h6>
+                    
                     <p class="card-text espaciado">${descripcion}</p>
                     <label class= "espaciado">$ ${precio}</label>
                     <form id="form${id}">
