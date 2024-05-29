@@ -6,12 +6,11 @@ body{
 }
 /* INICIO ESTILO CARRITO IZQUIERDO */
 aside {
-    padding: 2rem;
-    padding-right: 200px;
-    padding-right: 0;
+    padding: 1rem;
+
+
     background-color: #ffffff;
     position: sticky;
-  ;
     top: 0;
     height: 100vh;
     display: flex;
@@ -26,6 +25,13 @@ aside {
 
   }
   /* FIN ESTILO CARRITO IZQUIERDO */
+
+  main {
+    background-color: rgb(230, 229, 229);
+    margin-left: 0;
+    padding: 15px;
+  }
+
 .productos{
     display:flex;
     flex-direction: column;
