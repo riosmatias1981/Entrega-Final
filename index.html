@@ -10,17 +10,33 @@
     <!-- Librerias -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
-    <title>Desayunos Sorpresa</title>
+    <title>Tienda GYT</title>
 </head>
 <body>
     <header>
-        <h1>Desayunos Artesanales</h1>
-        <h3>Los mejores Desayunos</h3>
+        <nav class="navbar bg-body-tertiary col-12 encabezado">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                Tienda de Gimnasia y Tiro
+              </a>
+            </div> 
+        </nav>
+        <h3>El mejor lugar para encontrar toda la indumentaria oficial</h3>
     </header>
     
 <main>
     <article>
-
+        <h2>Productos</h2>
+        <form style="width: 200px; padding: 10px;">
+            <select class="form-select" aria-label="Default select example" id="tipoProducto">
+                <option selected value="0">Todo</option>
+                <option value="Camiseta">Camisetas</option>
+                <option value="Pantalon">Pantalon</option>
+                <option value="Campera">Camperas</option>
+                <option value="Accesorios">Accesorios</option>
+            </select>
+        </form>
         <div class="container">
             <!-- Aca renderizo los productos -->
             <div class="row" id="contenedorProductos" style="display:flex;justify-content: center;">
@@ -30,27 +46,29 @@
     </article>
 
 
-    <article class="form_carrito">
-        <h2>Carrito de compras</h2>
+    <article class="carrito">
+        <h2>Mi compra</h2>
         <ul id="listaCarrito"></ul>
         <p id="carritoTotal"></p>
         <form id="formCompraFinal">
-          
-            <input type="submit" value="Finalizar Compra" class="btn btn-primary" id="botonCompraFinal">
+            <label for="nombre">Nombre:</label>
+            <input required type="text" name="nombre">
+            <label for="email">Email:</label>
+            <input required type="email" name="email">
+            <label for="telefono">Telefono:</label>
+            <input required type="number" name="telefono">
+            <input type="submit" value="Comprar" class="btn btn-primary" id="botonCompraFinal">
         </form>
     </article>
-
 
 </main>
 
 
 
-<script src="./app/prodDatos.js"></script>
-    
-<script src="./app/main.js"></script>
+    <script src="./prodDatos.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <script src="./main.js"></script>
     
 </body>
 </html>
