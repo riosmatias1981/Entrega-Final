@@ -88,6 +88,7 @@ input {
     width: 30px;
     border-radius: 5px;
 border-color: rgb(50, 50, 50);
+border-style: solid;
 }
 #botonCompraFinal {
     width: 150px;
