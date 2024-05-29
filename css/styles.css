@@ -25,15 +25,12 @@ aside {
   }
   /* FIN ESTILO CARRITO IZQUIERDO */
 
-/*   main {
-    background-color: rgb(230, 229, 229);
-    margin-left: 0;
-    padding: 15px;
-    border-left: #000000;
-  } */
+
 main {
     background: rgb(222,222,222);
     background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 100%);
+    margin-left: 0;
+    padding: 15px;
 }
 
   .titulito{
