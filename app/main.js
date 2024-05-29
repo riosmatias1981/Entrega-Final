@@ -4,46 +4,7 @@ const url = "./datos.json"
 let carrito = JSON.parse(localStorage.getItem("carrito")) || []
 const pedidos = JSON.parse(localStorage.getItem("pedidos")) || []
 
-//funciona bien probar ahora con json
-// const renderizarProductos = (arrayUtilizado)=>{
-//     const contenedorProductos = document.getElementById("contenedorProductos")
-//     contenedorProductos.innerHTML = ""
-//     arrayUtilizado.forEach(({id, nombre, tipo, precio, stock, descripcion})=>{
-//         const prodCard = document.createElement("div")
-//         prodCard.classList.add("col-xs")
-//         prodCard.classList.add("card")
-//         prodCard.classList.add("productos")
-//         prodCard.id = id
-//         prodCard.innerHTML = `
-//                 <img src="./assets/${id}.png" class="card-img-top" alt="${nombre}">
-//                 <div class="card-body">
-//                     <h5 class="card-title espaciado">${nombre}</h5>
-//                     <h6 class= "espaciado">${tipo}</h6>
-//                     <p class="card-text espaciado">${descripcion}</p>
-//                     <label class= "espaciado">$ ${precio}</label>
-//                     <form id="form${id}">
-//                         <label class= "espaciado" for="contador${id}">Cantidad</label>
-//                         <input type="number" placeholder="0" id="contador${id}" min="0">
-//                         <p></p>
-//                         <button class="btn btn-primary" id="botonProd${id}">Agregar</button>
-//                         <p class= "espaciado">Stock: ${stock}</p>
-//                     </form>
-//                 </div>`
-//         contenedorProductos.appendChild(prodCard)
-//         const btn = document.getElementById(`botonProd${id}`)
-//         console.log(btn)
-//         btn.addEventListener("click",(evento)=>{
-//             evento.preventDefault()
-//             const contadorQuantity = Number(document.getElementById(`contador${id}`).value)
-//             if(contadorQuantity>0){
-//                 agregarCarrito({id, nombre, tipo, precio, stock, descripcion, cantidad:contadorQuantity})
-//                 renderizarCarrito()
-//                 const form = document.getElementById(`form${id}`)
-//                 form.reset()
-//             }
-//         })
-//     })
-// }
+
 
 //prueba de traer los objetos de json
 fetch(url)
@@ -54,7 +15,7 @@ fetch(url)
 const renderizarProductos = (articulos)=>{
     const contenedorProductos = document.getElementById("contenedorProductos")
     contenedorProductos.innerHTML = ""
-    articulos.forEach(({id, nombre, tipo, precio, stock, descripcion, img})=>{
+    articulos.forEach(({id, nombre, precio, img})=>{
         const prodCard = document.createElement("div")
         prodCard.classList.add("col-xs")
         prodCard.classList.add("card")
