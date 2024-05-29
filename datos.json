@@ -3,7 +3,7 @@
         "id":"001",
         "nombre":"Desayuno Básico",        
         "precio":1800, 
-        "img":"./assets/001.png"
+        "img":"./assets/001.jpeg"
     },
     {
         "id":"002", 
