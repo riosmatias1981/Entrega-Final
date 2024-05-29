@@ -2,10 +2,7 @@
     {
         "id":"001",
         "nombre":"Camiseta Titular",        
-        "tipo":"Camiseta", 
         "precio":45000, 
-        "stock":100, 
-        "descripcion":"Camiseta Titular",
         "img":"./assets/001.png"
     },
     {
