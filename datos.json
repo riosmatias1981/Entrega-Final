@@ -2,13 +2,13 @@
     {
         "id":"001",
         "nombre":"Desayuno Básico",        
-        "precio":1800, 
+        "precio":18000, 
         "img":"./assets/001.jpeg"
     },
     {
         "id":"002", 
         "nombre":"Desayuno Premium",        
-        "precio":2500, 
+        "precio":25000, 
         "img":"./assets/002.jpeg"
     },
     {
@@ -19,20 +19,20 @@
     },
     {
         "id":"004", 
-        "nombre":"Desayuno Con Licor y Regalo",        
-        "precio":45000, 
+        "nombre":"Con Licor y Regalo",        
+        "precio":60000, 
         "img":"./assets/004.jpeg"
     },
     {
         "id":"005", 
         "nombre":"Desayuno con Ramo",        
-        "precio":45000, 
+        "precio":65000, 
         "img":"./assets/005.jpeg"
     },
     {
         "id":"006", 
         "nombre":"Desayuno Express",        
-        "precio":45000, 
+        "precio":17500, 
         "img":"./assets/006.jpeg"
     }
 ]
